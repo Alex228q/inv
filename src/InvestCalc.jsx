@@ -33,12 +33,12 @@ const PositiveText = styled("span")(({ theme }) => ({
 const STOCK_CONFIG = {
   X5: { name: "X5", lotSize: 1 },
   LKOH: { name: "Лукойл", lotSize: 1 },
-  TATNP: { name: "Татнефть", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
-  SBERP: { name: "Сбербанк", lotSize: 1 },
-  PHOR: { name: "Фосагро", lotSize: 1 },
-  CHMF: { name: "Северсталь", lotSize: 1 },
   MRKP: { name: "Россети Центр и Приволжье", lotSize: 10000 },
+  SBERP: { name: "Сбербанк", lotSize: 1 },
+  CHMF: { name: "Северсталь", lotSize: 1 },
+  TATNP: { name: "Татнефть", lotSize: 1 },
+  PHOR: { name: "Фосагро", lotSize: 1 },
   YDEX: { name: "Яндекс", lotSize: 1 },
 };
 
