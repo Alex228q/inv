@@ -43,15 +43,15 @@ const STOCK_CONFIG = {
 const STOCKS_DISTRIBUTION = {
   //нефть
   LKOH: 0.2,
-  NVTK: 0.125,
+  NVTK: 0.2,
   //IT
-  YDEX: 0.125,
+  YDEX: 0.15,
   //сырье
   PHOR: 0.15,
   // ритейл
-  X5: 0.15,
+  X5: 0.1,
   //финансы
-  SBERP: 0.25,
+  SBERP: 0.2,
 };
 
 const InvestCalc = () => {
