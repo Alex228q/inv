@@ -33,25 +33,32 @@ const PositiveText = styled("span")(({ theme }) => ({
 const STOCK_CONFIG = {
   X5: { name: "X5", lotSize: 1 },
   LKOH: { name: "Лукойл", lotSize: 1 },
+  TATNP: { name: "Татнефть", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
+  CHMF: { name: "Северсталь", lotSize: 1 },
+  MRKP: { name: "Россети Центр и Приволжье", lotSize: 10000 },
   YDEX: { name: "Яндекс", lotSize: 1 },
 };
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
   //нефть
-  LKOH: 0.2,
-  NVTK: 0.2,
+  LKOH: 0.15,
+  NVTK: 0.1,
+  TATNP: 0.1,
   //IT
-  YDEX: 0.15,
+  YDEX: 0.1,
   //сырье
-  PHOR: 0.15,
+  PHOR: 0.1,
+  CHMF: 0.1,
   // ритейл
   X5: 0.1,
+  //энергетика
+  MRKP: 0.1,
   //финансы
-  SBERP: 0.2,
+  SBERP: 0.15,
 };
 
 const InvestCalc = () => {
