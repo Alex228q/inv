@@ -35,30 +35,29 @@ const STOCK_CONFIG = {
   LKOH: { name: "Лукойл", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
   MRKP: { name: "Россети Центр и Приволжье", lotSize: 10000 },
+  PMSB: { name: "Пермэнергосбыт", lotSize: 10 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
-  CHMF: { name: "Северсталь", lotSize: 1 },
-  TATNP: { name: "Татнефть", lotSize: 1 },
+
   PHOR: { name: "Фосагро", lotSize: 1 },
-  YDEX: { name: "Яндекс", lotSize: 1 },
+  YDEX: { name: "Yandex", lotSize: 1 },
 };
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
   //нефть
-  LKOH: 0.15,
-  NVTK: 0.1,
-  TATNP: 0.1,
-  //IT
-  YDEX: 0.1,
+  LKOH: 0.2,
+  NVTK: 0.15,
   //сырье
   PHOR: 0.1,
-  CHMF: 0.1,
   // ритейл
   X5: 0.1,
+  // it
+  YDEX: 0.1,
   //энергетика
-  MRKP: 0.1,
+  MRKP: 0.075,
+  PMSB: 0.075,
   //финансы
-  SBERP: 0.15,
+  SBERP: 0.2,
 };
 
 const InvestCalc = () => {
