@@ -33,13 +33,13 @@ const PositiveText = styled("span")(({ theme }) => ({
 const STOCK_CONFIG = {
   X5: { name: "X5", lotSize: 1 },
   LKOH: { name: "Лукойл", lotSize: 1 },
-  NVTK: { name: "Новатэк", lotSize: 1 },
-  SBERP: { name: "Сбербанк", lotSize: 1 },
-  T: { name: "Т-Технологии", lotSize: 1 },
-  LSNGP: { name: "Россети Ленэнерго", lotSize: 10 },
-  PHOR: { name: "Фосагро", lotSize: 1 },
   MDMG: { name: "Мать и дитя", lotSize: 1 },
+  NVTK: { name: "Новатэк", lotSize: 1 },
+  LSNGP: { name: "Россети Ленэнерго", lotSize: 10 },
+  SBERP: { name: "Сбербанк", lotSize: 1 },
   CHMF: { name: "Северсталь", lotSize: 1 },
+  T: { name: "Т-Технологии", lotSize: 1 },
+  PHOR: { name: "Фосагро", lotSize: 1 },
   YDEX: { name: "Yandex", lotSize: 1 },
 };
 
@@ -60,8 +60,8 @@ const STOCKS_DISTRIBUTION = {
   //медицинв
   MDMG: 0.1,
   //финансы
-  SBERP: 0.1,
   T: 0.1,
+  SBERP: 0.1,
 };
 
 const InvestCalc = () => {
