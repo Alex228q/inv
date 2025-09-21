@@ -42,13 +42,10 @@ const STOCK_CONFIG = {
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
-  //нефть
+  PHOR: 0.2,
   LKOH: 0.3,
   NVTK: 0.2,
-  //сырье
-  PHOR: 0.15,
-
-  SBERP: 0.35,
+  SBERP: 0.3,
 };
 
 const InvestCalc = () => {
