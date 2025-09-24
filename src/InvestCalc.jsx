@@ -31,12 +31,12 @@ const PositiveText = styled("span")(({ theme }) => ({
 
 // Конфигурация акций
 const STOCK_CONFIG = {
-  LKOH: { name: "Лукойл", lotSize: 1 },
-  YDEX: { name: "Yandex", lotSize: 1 },
   X5: { name: "X5", lotSize: 1 },
+  LKOH: { name: "Лукойл", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
+  YDEX: { name: "Yandex", lotSize: 1 },
 };
 
 // Распределение акций
