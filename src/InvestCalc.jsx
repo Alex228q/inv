@@ -36,15 +36,19 @@ const STOCK_CONFIG = {
   NVTK: { name: "Новатэк", lotSize: 1 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
+  YDEX: { name: "Yandex", lotSize: 1 },
+  TRNFP: { name: "Транснефть", lotSize: 1 },
 };
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
-  PHOR: 0.15,
-  LKOH: 0.25,
+  PHOR: 0.10,
+  LKOH: 0.20,
   NVTK: 0.2,
-  X5: 0.15,
-  SBERP: 0.25,
+  X5: 0.10,
+  YDEX: 0.1,
+  TRNFP: 0.1,
+  SBERP: 0.20,
 };
 
 const InvestCalc = () => {
@@ -266,9 +270,6 @@ const InvestCalc = () => {
 
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
-      <Typography variant="h4" component="h1" gutterBottom align="center">
-        Инвестиционный калькулятор акций
-      </Typography>
 
       <Paper sx={{ p: 3, mb: 3 }}>
         <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
