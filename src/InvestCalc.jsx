@@ -44,11 +44,11 @@ const STOCK_CONFIG = {
 const STOCKS_DISTRIBUTION = {
   PHOR: 0.10,
   LKOH: 0.20,
-  NVTK: 0.2,
-  X5: 0.10,
+  NVTK: 0.15,
+  X5: 0.1,
   YDEX: 0.1,
   TRNFP: 0.1,
-  SBERP: 0.20,
+  SBERP: 0.25,
 };
 
 const InvestCalc = () => {
