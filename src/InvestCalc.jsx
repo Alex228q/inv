@@ -34,7 +34,6 @@ const STOCK_CONFIG = {
   X5: { name: "X5", lotSize: 1 },
   LKOH: { name: "Лукойл", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
-  MRKP: { name: "Россети Центр и Приволжье", lotSize: 10000 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
   YDEX: { name: "Yandex", lotSize: 1 },
@@ -42,12 +41,11 @@ const STOCK_CONFIG = {
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
-  PHOR: 0.12,
+  PHOR: 0.15,
   LKOH: 0.20,
   NVTK: 0.15,
-  X5: 0.11,
-  MRKP: 0.11,
-  YDEX: 0.11,
+  X5: 0.15,
+  YDEX: 0.15,
   SBERP: 0.20,
 };
 
