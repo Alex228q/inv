@@ -37,7 +37,7 @@ const STOCK_CONFIG = {
   SBERP: { name: "Сбербанк", lotSize: 1 },
   TRNFP: { name: "Транснефть", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
-  YDEX: { name: "Yandex", lotSize: 1 },
+  MRKP: { name: "Россети Центр и Приволжье", lotSize: 10000 },
 };
 
 // Распределение акций
@@ -46,7 +46,7 @@ const STOCKS_DISTRIBUTION = {
   LKOH: 0.20,
   NVTK: 0.20,
   X5: 0.1,
-  YDEX: 0.1,
+  MRKP: 0.1,
   TRNFP: 0.1,
   SBERP: 0.20,
 };
