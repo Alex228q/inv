@@ -35,18 +35,25 @@ const STOCK_CONFIG = {
   LKOH: { name: "Лукойл", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
+  MDMG: { name: "Мать и дитя", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
-  YDEX: { name: "Yandex", lotSize: 1 },
+  CHMF: { name: "Северсталь", lotSize: 1 },
 };
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
-  PHOR: 0.15,
-  LKOH: 0.20,
-  NVTK: 0.15,
-  X5: 0.15,
-  YDEX: 0.15,
-  SBERP: 0.20,
+  //нефтегаз
+  LKOH: 0.15,
+  NVTK: 0.14,
+  //иедицина
+  MDMG: 0.14,
+  //металлы и химия
+  PHOR: 0.14,
+  CHMF: 0.14,
+  //ритейл
+  X5: 0.14,
+  //финансы
+  SBERP: 0.15,
 };
 
 const InvestCalc = () => {
@@ -268,7 +275,6 @@ const InvestCalc = () => {
 
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
-
       <Paper sx={{ p: 3, mb: 3 }}>
         <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
           <Typography variant="h6" component="h2">
