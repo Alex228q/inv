@@ -37,23 +37,21 @@ const STOCK_CONFIG = {
   SBERP: { name: "Сбербанк", lotSize: 1 },
   MDMG: { name: "Мать и дитя", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
-  YDEX: { name: "Yandex", lotSize: 1 },
 };
 
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
   //нефтегаз
-  LKOH: 0.15,
-  NVTK: 0.14,
+  LKOH: 0.2,
+  NVTK: 0.15,
   //иедицина
-  MDMG: 0.14,
+  MDMG: 0.15,
   //металлы и химия
-  PHOR: 0.14,
+  PHOR: 0.15,
   //ритейл
-  X5: 0.14,
-  //финансы и it
-  YDEX: 0.14,
-  SBERP: 0.15,
+  X5: 0.15,
+  //финансы
+  SBERP: 0.2,
 };
 
 const InvestCalc = () => {
