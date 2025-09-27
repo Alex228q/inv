@@ -37,7 +37,7 @@ const STOCK_CONFIG = {
   SBERP: { name: "Сбербанк", lotSize: 1 },
   MDMG: { name: "Мать и дитя", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
-  CHMF: { name: "Северсталь", lotSize: 1 },
+  YDEX: { name: "Yandex", lotSize: 1 },
 };
 
 // Распределение акций
@@ -49,7 +49,7 @@ const STOCKS_DISTRIBUTION = {
   MDMG: 0.14,
   //металлы и химия
   PHOR: 0.14,
-  CHMF: 0.14,
+  YDEX: 0.14,
   //ритейл
   X5: 0.14,
   //финансы
