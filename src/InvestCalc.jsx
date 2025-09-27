@@ -34,7 +34,9 @@ const STOCK_CONFIG = {
   X5: { name: "X5", lotSize: 1 },
   LKOH: { name: "Лукойл", lotSize: 1 },
   NVTK: { name: "Новатэк", lotSize: 1 },
+  TATNP: { name: "Татнефть", lotSize: 1 },
   SBERP: { name: "Сбербанк", lotSize: 1 },
+  YDEX: { name: "Yandex", lotSize: 1 },
   MDMG: { name: "Мать и дитя", lotSize: 1 },
   PHOR: { name: "Фосагро", lotSize: 1 },
 };
@@ -42,16 +44,18 @@ const STOCK_CONFIG = {
 // Распределение акций
 const STOCKS_DISTRIBUTION = {
   //нефтегаз
-  LKOH: 0.2,
-  NVTK: 0.15,
+  LKOH: 0.125,
+  NVTK: 0.125,
+  TATNP: 0.125,
   //иедицина
-  MDMG: 0.15,
-  //металлы и химия
-  PHOR: 0.15,
+  MDMG: 0.125,
+  //химия
+  PHOR: 0.125,
   //ритейл
-  X5: 0.15,
-  //финансы
-  SBERP: 0.2,
+  X5: 0.125,
+  //финансы и it
+  SBERP: 0.125,
+  YDEX: 0.125,
 };
 
 const InvestCalc = () => {
