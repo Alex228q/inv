@@ -49,10 +49,10 @@ const STOCKS_DISTRIBUTION = {
   MDMG: 0.14,
   //металлы и химия
   PHOR: 0.14,
-  YDEX: 0.14,
   //ритейл
   X5: 0.14,
-  //финансы
+  //финансы и it
+  YDEX: 0.14,
   SBERP: 0.15,
 };
 
